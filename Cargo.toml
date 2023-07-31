@@ -8,3 +8,5 @@ edition = "2021"
 [dependencies]
 dialoguer = "0.10.4"
 clearscreen = "2.0.1"
+rand = "0.8.5"
+yansi = "0.5.1"
