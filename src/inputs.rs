@@ -15,10 +15,9 @@ pub mod inputs {
             io::stdin()
                 .read_line(&mut input)
                 .expect("Failed to read user input");
-    
-    
+
             match input.trim().parse::<i32>() {
-                Ok(number) => return number, 
+                Ok(number) => return number,
                 Err(_) => {
                     println!("Invalid input. Please enter a valid number:");
                     continue;
